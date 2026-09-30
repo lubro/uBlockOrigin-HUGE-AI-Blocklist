@@ -1,5 +1,9 @@
-# uBlockOrigin & uBlacklist Huge AI Blocklist
-A huge blocklist of manually curated sites (1000+) that contain AI generated content, for the purposes of cleaning image search engines (Google Search, DuckDuckGo, and Bing) with uBlock Origin or uBlacklist. 
+# uBlockOrigin & uBlacklist Huge AI Blocklist Fork:
+A huge blocklist of manually sites that contain AI generated content,
+for the purposes of cleaning (image) search engines (Google Search, DuckDuckGo, and Bing) with uBlock Origin or uBlacklist.
+
+This fork has, different from the origin version no ai-tools removed, and aditional blogs added.
+
 
 Also works on mobile ([iOS, iPadOS,](#iOS-iPadOS-Safari-only) [Android](#Android-via-Firefox)) via uBlacklist, as well as pihole/adguard (via [Hosts file](#hosts-file-for-pi-holeadguard))
 
@@ -7,9 +11,6 @@ Also works on mobile ([iOS, iPadOS,](#iOS-iPadOS-Safari-only) [Android](#Android
 
 ### Installing it with uBlock Origin
 
-**One-click import (any platform)**
-
-If you have uBlock Origin installed, click [this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Flaylavish%2FuBlockOrigin-HUGE-AI-Blocklist%2Fmain%2Flist.txt&title=Sites%20using%20AI%20generated%20content) to import the filter list in just a click! Quick and simple.
 
 **Manual Import**
 
@@ -23,7 +24,7 @@ If you have uBlock Origin installed, click [this link](https://subscribe.adblock
 
 5. Copy and paste this URL into the dialogue box: 
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+https://raw.githubusercontent.com/lubro/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
 ```
 
 6. Apply changes, and you're set!
@@ -128,7 +129,7 @@ If you have uBlock Origin installed, click [this link](https://subscribe.adblock
 
 6. Copy and paste this URL into the dialogue box: 
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+https://raw.githubusercontent.com/lubro/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
 ```
 
 6. Apply changes, and you're set!
@@ -193,7 +194,7 @@ Here's a simple guide on how to [access your hosts file on Linux, macOS, and Win
 
 ## Additional lists
 
-Currently, there are two lists: The [main](github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt) default list, and the [nuclear](github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/additional_list_nuclear.txt) list.
+Currently, there are two lists: The [main](github.com/lubro/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt) default list, and the [nuclear](github.com/lubro/uBlockOrigin-HUGE-AI-Blocklist/blob/main/additional_list_nuclear.txt) list.
 
 The nuclear list has sites that contain a mix of authentic and AI generated imagery (eg. DeviantArt, Artstation, Stock Photography sites, etc), which make it tricky to outright block in the main filter list, so I've designated it to a separate list that you can toggle on and off if you so desire.
 
@@ -213,7 +214,7 @@ https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/
 <br>
   
 ```
-https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist_nuclear.txt
+https://raw.githubusercontent.com/lubro/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist_nuclear.txt
 ```
 </details>
 
