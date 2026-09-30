@@ -3607,21 +3607,6 @@ google.com##a[href*="redbubble.com/people/digitalemporio/shop"]:upward(2):remove
 
 
 
-! /////////////////
-! /////////////////
-
-! // Google AI Overview
-google.com##.YzCcne:remove()
-
-! // Google AI Mode search tab
-google.com##div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
-
-! // GitHub Copilot
-github.com##div > button > span > span > svg.octicon-copilot:upward(div)
-github.com##div.AppHeader-CopilotChat
-github.com##div.copilotPreview__container
-github.com##li > a[href$="/copilot"]:upward(li)
-
 
 ! // Just in case exceptions
 mail.google.com#@#a[href*="/play.ht"]:upward(2):remove()
@@ -3630,3 +3615,18 @@ mail.google.com#@#a[href*=".play.ht"]:upward(2):remove()
 
 ! // Gmail, Google Drive, Google Docs: Try Gemini button
 mail.google.com,drive.google.com,docs.google.com##div[role="tooltip"]:has-text(Try Gemini):upward(3):remove()
+
+
+! // Slop Blogs
+duckduckgo.com,bing.com##a[href*="die-besten-aller-zeiten.de"]:upward(li):remove()
+google.com##a[href*="die-besten-aller-zeiten.de"]:upward(2):remove()
+duckduckgo.com,bing.com##a[href*="diebestentop10.de"]:upward(li):remove()
+google.com##a[href*="diebestentop10.de"]:upward(2):remove()
+duckduckgo.com,bing.com##a[href*="bester.de"]:upward(li):remove()
+google.com##a[href*="bester.de"]:upward(2):remove()
+duckduckgo.com,bing.com##a[href*="warentest-deutschland.de"]:upward(li):remove()
+google.com##a[href*="warentest-deutschland.de"]:upward(2):remove()
+duckduckgo.com,bing.com##a[href*="haushaltsvergleiche.de"]:upward(li):remove()
+google.com##a[href*="haushaltsvergleiche.de"]:upward(2):remove()
+duckduckgo.com,bing.com##a[href*="testberichte.plus"]:upward(li):remove()
+google.com##a[href*="testberichte.plus"]:upward(2):remove()
